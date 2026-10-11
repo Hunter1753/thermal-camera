@@ -1,0 +1,260 @@
+[
+  {
+    "group": "Device",
+    "label": "Device name",
+    "command": "01 01 81 00 01 00 00 00 00 00 00 00 20 00 00 00 fc 1e",
+    "raw": "43 61 6d 65 72 61 20 57 4e 32 32 35 36 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "value": "Camera WN2256"
+  },
+  {
+    "group": "Device",
+    "label": "Firmware version",
+    "command": "01 01 81 00 02 00 00 00 00 00 00 00 0b 00 00 00 32 32",
+    "raw": "30 30 2e 30 30 2e 30 32 2e 30 34",
+    "value": "00.00.02.04"
+  },
+  {
+    "group": "Device",
+    "label": "VID",
+    "command": "01 01 81 00 04 00 00 00 00 00 00 00 02 00 00 00 7b ca",
+    "raw": "74 34",
+    "value": "0x3474"
+  },
+  {
+    "group": "Device",
+    "label": "PID",
+    "command": "01 01 81 00 05 00 00 00 00 00 00 00 02 00 00 00 0e c9",
+    "raw": "c1 43",
+    "value": "0x43c1"
+  },
+  {
+    "group": "Device",
+    "label": "Part number",
+    "command": "01 01 81 00 06 00 00 00 00 00 00 00 20 00 00 00 b7 16",
+    "raw": "57 4e 32 32 35 36 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "value": "WN2256"
+  },
+  {
+    "group": "Device",
+    "label": "Serial number",
+    "command": "01 01 81 00 07 00 00 00 00 00 00 00 20 00 00 00 c2 15",
+    "raw": "57 4e 32 32 35 30 30 30 58 45 30 38 30 37 30 30 33 30 33 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "value": "WN225000XE080700303"
+  },
+  {
+    "group": "Device",
+    "label": "Time since power on",
+    "command": "10 10 93 00 00 00 00 00 00 00 00 00 04 00 00 00 5b bb",
+    "raw": "45 05 00 00",
+    "value": "1349 s"
+  },
+  {
+    "group": "Device",
+    "label": "Module temperature (raw)",
+    "command": "10 10 91 00 00 00 00 00 00 00 00 00 02 00 00 00 00 6a",
+    "raw": "d0 29",
+    "value": "10704"
+  },
+  {
+    "group": "Device",
+    "label": "Sleep state",
+    "command": "10 10 88 00 00 00 00 00 00 00 00 00 01 00 00 00 21 a7",
+    "raw": "00",
+    "value": "0 (working)"
+  },
+  {
+    "group": "Device",
+    "label": "Boot logo",
+    "command": "10 10 81 00 00 00 00 00 00 00 00 00 01 00 00 00 2b 37",
+    "raw": "01",
+    "value": "1 (on)"
+  },
+  {
+    "group": "Shutter",
+    "label": "Auto shutter",
+    "command": "10 02 81 00 00 00 00 00 00 00 00 00 01 00 00 00 78 34",
+    "raw": "00",
+    "value": "0 (off)"
+  },
+  {
+    "group": "Shutter",
+    "label": "Auto shutter temperature threshold",
+    "command": "10 02 82 00 00 01 00 00 00 00 00 00 02 00 00 00 4e fa",
+    "raw": "38 00",
+    "value": "56 (~1.75 \u00b0C per manual)"
+  },
+  {
+    "group": "Shutter",
+    "label": "Auto shutter min interval",
+    "command": "10 02 82 00 01 01 00 00 00 00 00 00 02 00 00 00 3b f9",
+    "raw": "05 00",
+    "value": "5 s"
+  },
+  {
+    "group": "Shutter",
+    "label": "Auto shutter max interval",
+    "command": "10 02 82 00 02 01 00 00 00 00 00 00 02 00 00 00 a4 fc",
+    "raw": "2c 01",
+    "value": "300 s"
+  },
+  {
+    "group": "Shutter",
+    "label": "Anti-burn protection",
+    "command": "10 03 8b 00 00 00 00 00 00 00 00 00 01 00 00 00 2d 87",
+    "raw": "00",
+    "value": "0 (off)"
+  },
+  {
+    "group": "Video",
+    "label": "Digital video output",
+    "command": "10 10 86 00 00 00 00 00 00 00 00 00 04 00 00 00 68 fb",
+    "raw": "00 00 00 00",
+    "value": "enabled=0 type=USB rate=0 Hz"
+  },
+  {
+    "group": "Video",
+    "label": "Analog video output",
+    "command": "10 10 8a 00 00 00 00 00 00 00 00 00 02 00 00 00 3f ca",
+    "raw": "01 01",
+    "value": "enabled=1 format=PAL"
+  },
+  {
+    "group": "Video",
+    "label": "Detector frame rate",
+    "command": "10 10 84 00 00 00 00 00 00 00 00 00 01 00 00 00 ef b1",
+    "raw": "32",
+    "value": "50 Hz"
+  },
+  {
+    "group": "Video",
+    "label": "Image data source",
+    "command": "10 10 85 00 00 00 00 00 00 00 00 00 01 00 00 00 8e ca",
+    "error": "rejected (status not done)"
+  },
+  {
+    "group": "Video",
+    "label": "YUV format",
+    "command": "10 03 8c 00 00 00 00 00 00 00 00 00 01 00 00 00 2b f7",
+    "raw": "00",
+    "value": "0 (UYVY)"
+  },
+  {
+    "group": "Video",
+    "label": "External sync",
+    "command": "10 10 8b 00 00 00 00 00 00 00 00 00 01 00 00 00 82 2a",
+    "raw": "00",
+    "value": "0 (off)"
+  },
+  {
+    "group": "Video",
+    "label": "DVP/I2C voltage",
+    "command": "10 10 87 00 00 00 00 00 00 00 00 00 01 00 00 00 4c 3c",
+    "raw": "00",
+    "value": "0 (1.8 V)"
+  },
+  {
+    "group": "Display",
+    "label": "Freeze frame",
+    "command": "10 10 82 00 00 00 00 00 00 00 00 00 01 00 00 00 88 ba",
+    "raw": "00",
+    "value": "0 (off)"
+  },
+  {
+    "group": "Display",
+    "label": "Mirror/flip",
+    "command": "10 10 83 00 00 00 00 00 00 00 00 00 01 00 00 00 e9 c1",
+    "raw": "00",
+    "value": "0 (none)"
+  },
+  {
+    "group": "Display",
+    "label": "Center zoom",
+    "command": "01 31 82 00 00 00 00 00 00 00 00 00 01 00 00 00 4e 02",
+    "raw": "0a",
+    "value": "1.0x"
+  },
+  {
+    "group": "Display",
+    "label": "Coordinate zoom",
+    "command": "01 31 91 00 00 00 00 00 00 00 00 00 05 00 00 00 eb 83",
+    "raw": "7f 00 5f 00 0a",
+    "value": "center=(127,95) zoom=1.0x"
+  },
+  {
+    "group": "Display",
+    "label": "Cursor",
+    "command": "10 11 81 00 00 00 00 00 00 00 00 00 01 00 00 00 d7 99",
+    "raw": "00",
+    "value": "0 (hidden)"
+  },
+  {
+    "group": "Display",
+    "label": "Cursor position",
+    "command": "10 11 82 00 00 00 00 00 00 00 00 00 04 00 00 00 31 a8",
+    "raw": "80 00 60 00",
+    "value": "(128,96)"
+  },
+  {
+    "group": "Image",
+    "label": "Scene mode",
+    "command": "10 04 89 00 01 00 00 00 00 00 00 00 01 00 00 00 0d 0a",
+    "raw": "03",
+    "value": "3 (general (default))"
+  },
+  {
+    "group": "Image",
+    "label": "Palette",
+    "command": "10 03 85 00 00 00 00 00 00 00 00 00 01 00 00 00 21 67",
+    "raw": "00",
+    "value": "0 (white hot)"
+  },
+  {
+    "group": "Image",
+    "label": "Detail enhancement",
+    "command": "10 04 85 00 01 00 00 00 00 00 00 00 01 00 00 00 c3 1c",
+    "raw": "32",
+    "value": "50"
+  },
+  {
+    "group": "Image",
+    "label": "Brightness",
+    "command": "10 04 87 00 01 00 00 00 00 00 00 00 01 00 00 00 01 ea",
+    "raw": "32",
+    "value": "50"
+  },
+  {
+    "group": "Image",
+    "label": "Contrast",
+    "command": "10 04 8a 00 01 00 00 00 00 00 00 00 01 00 00 00 ae 87",
+    "raw": "32",
+    "value": "50"
+  },
+  {
+    "group": "Image",
+    "label": "Spatial noise reduction",
+    "command": "10 04 8b 00 01 00 00 00 00 00 00 00 01 00 00 00 cf fc",
+    "raw": "32",
+    "value": "50"
+  },
+  {
+    "group": "Image",
+    "label": "Temporal noise reduction",
+    "command": "10 04 8c 00 01 00 00 00 00 00 00 00 01 00 00 00 c9 8c",
+    "raw": "32",
+    "value": "50"
+  },
+  {
+    "group": "Image",
+    "label": "Gamma",
+    "command": "10 04 8d 00 01 00 00 00 00 00 00 00 01 00 00 00 a8 f7",
+    "raw": "32",
+    "value": "50"
+  },
+  {
+    "group": "Image",
+    "label": "Edge enhancement",
+    "command": "10 04 8e 00 00 00 00 00 00 00 00 00 01 00 00 00 7e 79",
+    "raw": "00",
+    "value": "0"
+  }
+]

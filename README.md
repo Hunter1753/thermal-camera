@@ -4,6 +4,11 @@ Notes and scripts for a USB thermal camera (USB ID `3474:43c1`). The goal was to
 commands from the vendor command list while the video keeps streaming, and to find out
 whether the camera can report temperatures.
 
+> [!WARNING]
+> Use these scripts and the command list at your own risk. Some commands change the camera
+> permanently or can cut its USB video (see [Commands to avoid](#commands-to-avoid)). The
+> included scripts only read settings, but they were tested on a single camera.
+
 ## The camera
 
 | | |
@@ -169,3 +174,10 @@ Questions worth asking: the SDK or host software for `3474:43c1` with firmware
   camera family (send-only), with the Hdaniee command list and the Mini2 manual
 - [jvdillon/p3-ir-camera](https://github.com/jvdillon/p3-ir-camera): USB protocol of the
   Thermal Master P3 (same vendor ID, same control requests)
+
+## Disclaimer
+
+The scripts and this README were written with the help of an AI assistant (Claude by
+Anthropic). The findings come from tests run on one camera and from public sources, and may
+be incomplete or wrong for other units or firmware versions. Commands that change the
+camera are at your own risk.
